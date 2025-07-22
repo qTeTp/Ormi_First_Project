@@ -8,40 +8,30 @@
         <title>Youtube</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark px-2">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg navbar-light px-2">
+            <a class="hamburger hamburger-button" href="#">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-list"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                    />
+                </svg>
+            </a>
+            <a class="navbar-brand" href="#" title="YouTube 메인 페이지">
                 <img class="logo" src="./imgs/youtube_logo.png" alt="logo" />
             </a>
             <form class="d-flex">
                 <!-- 왼쪽만 라운드 부여 -->
-                <input
-                    class="form-control"
-                    type="search"
-                    placeholder="검색"
-                    aria-label="Search"
-                    style="
-                        background-color: #121212;
-                        color: #818181;
-                        border-top-left-radius: 0.95rem;
-                        border-bottom-left-radius: 0.95rem;
-                        border-top-right-radius: 0;
-                        border-bottom-right-radius: 0;
-                        border-color: #818181;
-                    "
-                />
+                <input class="form-control custom-searchfiled" type="search" placeholder="검색" aria-label="Search" />
                 <!-- 오른쪽만 라운드 부여 -->
-                <button
-                    class="btn btn-dark"
-                    type="submit"
-                    style="
-                        border-top-left-radius: 0;
-                        border-bottom-left-radius: 0;
-                        border-top-right-radius: 0.95rem;
-                        border-bottom-right-radius: 0.95rem;
-                        border-color: #818181;
-                        margin-right: 10px;
-                    "
-                >
+                <button class="btn btn-dark custom-searchButton" type="submit">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -49,13 +39,14 @@
                         fill="currentColor"
                         class="bi bi-search"
                         viewBox="0 0 16 16"
+                        style="margin-right: 0.3rem; margin-left: 0.45rem"
                     >
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
                         />
                     </svg>
                 </button>
-                <button class="rounded-circle btn btn-dark" type="submit">
+                <button class="rounded-circle btn btn-dark searchMicButton" type="submit" title="음성으로 검색">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -71,33 +62,39 @@
                     </svg>
                 </button>
             </form>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">🏠Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">📄About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">☕Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">🤝Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="create-button" href="#">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    color="white"
+                    fill="currentColor"
+                    class="bi bi-plus-lg"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                    />
+                </svg>
+                만들기
+            </a>
+            <a href="#">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    color="white"
+                    fill="currentColor"
+                    class="bi bi-bell"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"
+                    />
+                </svg>
+            </a>
+            <a class="profile-button" href="#"> <img src="./imgs/profile_image.jpg" alt="프로필사진" /></a>
         </nav>
     </body>
 </html>

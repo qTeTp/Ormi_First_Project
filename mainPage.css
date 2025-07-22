@@ -1,7 +1,66 @@
 .logo {
-  height: 55px;
+    height: 55px;
 }
 
-.searchField {
-  border-top-left-radius: 40%;
+.navbar {
+    background-color: #121212;
+}
+
+/* 검색 창 */
+.custom-searchfiled {
+    width: 150%;
+    background-color: #121212;
+    border-top-left-radius: 0.95rem;
+    border-bottom-left-radius: 0.95rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #818181;
+}
+
+.custom-searchfiled::placeholder {
+    color: #818181;
+    opacity: 1;
+}
+
+/* 검색 버튼 */
+.custom-searchButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.95rem;
+    border-bottom-right-radius: 0.95rem;
+    border-color: #818181;
+    margin-right: 10px;
+}
+
+/* 음성 검색 버튼 */
+.searchMicButton {
+    border-color: #818181;
+}
+
+/* 햄버거 버튼 */
+.hamburger-button {
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+/* 프로필 사진 버튼 */
+.profile-button {
+    height: 32px;
+    width: 32px;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.profile-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 만들기 버튼 */
+.create-button {
+    background-color: #818181;
+    border-radius: 5rem;
+    color: #ffffff;
 }
