@@ -32,11 +32,6 @@
     margin-right: 10px;
 }
 
-/* 음성 검색 버튼 */
-.searchMicButton {
-    border-color: #818181;
-}
-
 /* 햄버거 버튼 */
 .hamburger-button {
     color: #ffffff;
@@ -60,7 +55,7 @@
 
 /* 만들기 버튼 */
 .create-button {
-    background-color: #818181;
+    background-color: #272727;
     border-radius: 5rem;
     color: #ffffff;
 }
