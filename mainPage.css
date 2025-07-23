@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
 .logo {
     height: 55px;
 }
@@ -6,15 +8,29 @@
     background-color: #121212;
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+form.d-flex {
+    flex-grow: 1;
+    min-width: 0;
+}
 /* 검색 창 */
 .custom-searchfiled {
-    width: 150%;
+    display: block;
+    flex: 1 1 100px;
+    min-width: 100px;
+    max-width: 500px;
+    width: 100%;
     background-color: #121212;
-    border-top-left-radius: 0.95rem;
-    border-bottom-left-radius: 0.95rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-color: #818181;
+    border-color: #333333;
 }
 
 .custom-searchfiled::placeholder {
@@ -26,9 +42,9 @@
 .custom-searchButton {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 0.95rem;
-    border-bottom-right-radius: 0.95rem;
-    border-color: #818181;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-color: #333333;
     margin-right: 10px;
 }
 
@@ -40,6 +56,7 @@
 
 /* 프로필 사진 버튼 */
 .profile-button {
+    display: inline-block;
     height: 32px;
     width: 32px;
     border-radius: 5rem;
@@ -58,4 +75,59 @@
     background-color: #272727;
     border-radius: 5rem;
     color: #ffffff;
+}
+
+.inner_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.side_bar {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #111;
+    transition: all 0.3s ease;
+}
+
+.inner_body button {
+    display: inline-block;
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_bar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.side_bar ul li {
+    width: 100%;
+    padding: 10px 10%;
+}
+
+.side_bar ul li a {
+    color: #eee;
+    text-decoration: none;
 }
