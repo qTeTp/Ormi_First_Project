@@ -110,7 +110,6 @@ form.d-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .side_bar ul {
@@ -130,4 +129,33 @@ form.d-flex {
 .side_bar ul li a {
     color: #eee;
     text-decoration: none;
+}
+
+hr {
+    height: 2px;
+    background-color: #444;
+    border: none;
+}
+
+aside.side_bar hr {
+    border: none;
+    border-top: 1px solid #444; /* 원하는 색상 */
+    margin: 1rem 0;
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+    transition: background-color 0.2s;
+}
+
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* 살짝 흰 배경 */
+}
+
+.sidebar_logo {
+    top: 5px;
+    left: 5px;
 }

@@ -2,40 +2,38 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="mainPage.css" />
         <link rel="stylesheet" href="./reset.css" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="./mainPage.js"></script>
-        <title>YoutubeHeader</title>
+        <title>YouTube</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light px-2">
             <div class="collapse navbar-collapse justify-content-between">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="hamburger hamburger-button" href="#" onclick="sideBar2.open()">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                fill="currentColor"
-                                class="bi bi-list"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-                                />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-brand" href="#" title="YouTube 메인 페이지">
-                            <img class="logo" src="./imgs/youtube_logo.png" alt="logo" />
-                        </a>
-                    </li>
-                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="transparent-button hamburger hamburger-button" href="#" onclick="sideBar2.open()">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                            />
+                        </svg>
+                    </a>
+
+                    <a class="navbar-brand" href="#" title="YouTube 메인 페이지">
+                        <img class="logo" src="./imgs/youtube_logo.png" alt="logo" />
+                    </a>
+                </div>
                 <form class="d-flex flex-grow-1 mx-3">
                     <!-- 검색 텍스트 필드 왼쪽만 라운드 부여 -->
                     <input
@@ -61,19 +59,7 @@
                         </svg>
                     </button>
                     <button class="rounded-circle btn btn-dark" type="submit" title="음성으로 검색">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            fill="currentColor"
-                            class="bi bi-mic-fill"
-                            viewBox="0 0 16 16"
-                        >
-                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z" />
-                            <path
-                                d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"
-                            />
-                        </svg>
+                        <img src="./icons/Dic.svg" alt="mic_icon" style="width: 20px; margin-top: 4px" />
                     </button>
                 </form>
                 <ul class="navbar-nav">
@@ -97,7 +83,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="rounded-circle btn btn-link" href="#" title="알림">
+                        <a class="transparent-button" href="#" title="알림">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="22"
@@ -121,13 +107,51 @@
         </nav>
         <div class="inner_body">
             <aside class="side_bar js-side_bar2">
-                <button onclick="sideBar2.close()">SideBar Close</button>
+                <div class="d-flex align-items-center sidebar_logo">
+                    <a class="transparent-button hamburger hamburger-button" href="#" onclick="sideBar2.close()">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                            />
+                        </svg>
+                    </a>
+
+                    <a class="navbar-brand" href="#" title="YouTube 메인 페이지">
+                        <img class="logo" src="./imgs/youtube_logo.png" alt="logo" />
+                    </a>
+                </div>
                 <ul>
                     <li></li>
-                    <li><a href="#none">Home</a></li>
-                    <li><a href="#none">Product</a></li>
-                    <li><a href="#none">About</a></li>
-                    <li><a href="#none">Contact</a></li>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">구독</a></li>
+                    <li><a href="#">YouTube Music</a></li>
+                </ul>
+                <hr />
+                <ul>
+                    <li><a href="#">내 페이지 ></a></li>
+                    <li><a href="#">시청 기록</a></li>
+                    <li><a href="#">내 동영상</a></li>
+                    <li><a href="#">내 영화</a></li>
+                    <li><a href="#">나중에 볼 동영상</a></li>
+                    <li><a href="#">좋아요 표시한 동영상</a></li>
+                    <li><a href="#">오프라인 저장 동영상</a></li>
+                    <li><a href="#">YouTube Studio</a></li>
+                </ul>
+                <hr />
+                구독
+                <ul>
+                    <li><a href="#">KBS</a></li>
+                    <li><a href="#">MBC</a></li>
+                    <li><a href="#">SBS</a></li>
                 </ul>
             </aside>
         </div>
