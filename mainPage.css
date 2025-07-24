@@ -87,6 +87,7 @@ form.d-flex {
     font-family: 'Poppins', sans-serif;
 }
 
+/* 동적 사이드바 */
 .side_bar {
     position: fixed;
     top: 0;
@@ -158,4 +159,22 @@ aside.side_bar hr {
 .sidebar_logo {
     top: 5px;
     left: 5px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+/* 정적 사이드바 */
+.static_side_bar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #111;
+    transition: all 0.3s ease;
 }
