@@ -5,6 +5,8 @@
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
     background-color: #121212;
 }
 
@@ -94,7 +96,7 @@ form.d-flex {
     width: 250px;
     height: 100%;
     background: #111;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 .inner_body button {
@@ -105,12 +107,6 @@ form.d-flex {
     padding: 10px 20px;
     cursor: pointer;
     margin: 0 5px;
-}
-
-.side_bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .side_bar ul {
@@ -132,24 +128,18 @@ form.d-flex {
     text-decoration: none;
 }
 
-hr {
-    height: 2px;
-    background-color: #444;
-    border: none;
-}
-
 aside.side_bar hr {
     border: none;
     border-top: 1px solid #444; /* 원하는 색상 */
     margin: 1rem 0;
 }
 
+/* 버튼 테두리 */
 .transparent-button {
     background-color: transparent;
     color: white;
     border-radius: 50%;
     padding: 8px;
-    transition: background-color 0.2s;
 }
 
 .transparent-button:hover {
@@ -161,6 +151,7 @@ aside.side_bar hr {
     left: 5px;
 }
 
+/* 아이콘 크기 통일 */
 .icons {
     width: 30px;
     height: 30px;
@@ -171,10 +162,90 @@ aside.side_bar hr {
 /* 정적 사이드바 */
 .static_side_bar {
     position: fixed;
-    top: 56px;
+    top: 83px;
     left: 0;
-    width: 250px;
+    width: 72px;
     height: 100%;
-    background: #111;
-    transition: all 0.3s ease;
+    background-color: #121212;
+    font-size: small;
+    text-align: center;
+}
+
+.static_side_bar li {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.static_side_bar li img {
+    margin-bottom: 5px;
+}
+
+.static_side_bar ul li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+/* 오른쪽 동적 사이드바 */
+.right_side_bar {
+    position: fixed;
+    top: 56px;
+    right: 16px;
+    width: 300px;
+    height: 684px;
+    background-color: #282828;
+    color: white;
+    border-radius: 12px;
+    background-size: auto;
+    border-image-slice: 100%;
+    display: block;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-size: 10px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+}
+
+.right_inner_body button {
+    display: inline-block;
+    color: #eee;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.right_side_bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right_side_bar li {
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.right_side_bar li:hover {
+    background-color: #383838;
+}
+
+.right_side_bar ul li {
+    width: 100%;
+    padding: 10px 10%;
+}
+
+.right_side_bar ul li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+aside.right_side_bar hr {
+    border: none;
+    border-top: 1px solid #444; /* 원하는 색상 */
+    margin: 1rem 0;
 }

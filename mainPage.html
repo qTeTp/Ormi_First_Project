@@ -50,49 +50,49 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="profile-button" href="#"> <img src="./imgs/profile_image.jpg" alt="프로필사진" /></a>
+                        <a class="profile-button" href="#" onclick="sideBar.open()">
+                            <img src="./imgs/profile_image.jpg" alt="프로필사진"
+                        /></a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!-- 정적 사이드바 -->
-        <div>
+        <div class="inner_body">
             <aside class="static_side_bar">
-                <div>
-                    <a href="#"
-                        ><img class="icons" src="./icons/Home.svg" alt="" /><br />
-                        홈</a
-                    >
-                </div>
-                <div>
-                    <a href="#"><img class="icons" src="./icons/Short.svg" alt="" /> <br />Shorts</a>
-                </div>
-                <div>
-                    <a href="#"
-                        ><img class="icons" src="./icons/Subscriptions.svg" alt="" /><br />
-                        구독</a
-                    >
-                </div>
-                <div>
-                    <a href="#"
-                        ><img class="icons" src="./icons/Music.svg" alt="" /> <br />
-                        YouTube Music</a
-                    >
-                </div>
-                <div>
-                    <a href="#"
-                        ><img class="icons" src="./icons/User.svg" alt="" /> <br />
-                        내 페이지</a
-                    >
-                </div>
-                <div>
-                    <a href="#"><img class="icons" src="./icons/Download.svg" alt="" /> <br />오프라인 저장 콘텐츠</a>
+                <div class="d-flex align-items-center sidebar_logo">
+                    <ul>
+                        <li>
+                            <a href="#" title="홈"
+                                ><img class="icons" src="./icons/Home_Fill.svg" alt="" /><br />
+                                홈</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" title="Shorts"
+                                ><img class="icons" src="./icons/Short.svg" alt="" /> <br />Shorts</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="#" title="구독"
+                                ><img class="icons" src="./icons/Subscriptions.svg" alt="" /><br />
+                                구독</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" title="내 페이지"
+                                ><img class="icons" src="./icons/User.svg" alt="" /> <br />
+                                내 페이지</a
+                            >
+                        </li>
+                    </ul>
                 </div>
             </aside>
         </div>
         <!-- 동적 사이드바 -->
         <div class="inner_body">
-            <aside class="side_bar js-side_bar2">
+            <aside class="side_bar js-side_bar-l">
                 <div class="d-flex align-items-center sidebar_logo">
                     <a class="transparent-button hamburger hamburger-button" href="#" onclick="sideBar2.close()">
                         <img class="icons" src="./icons/Hamburger.svg" alt="staticHamburger" />
@@ -103,7 +103,6 @@
                     </a>
                 </div>
                 <ul>
-                    <li></li>
                     <li>
                         <a href="#"><img class="icons" src="./icons/Home.svg" alt="홈" /> 홈</a>
                     </li>
@@ -151,8 +150,69 @@
                 </ul>
             </aside>
         </div>
+        <!-- 내 채널 동적 사이드바 -->
+        <div class="right_inner_body">
+            <aside class="right_side_bar js-side_bar-r">
+                <ul>
+                    <li>
+                        <div><img class="profile-button" src="./imgs/profile_image.jpg" alt="" /> User</div>
+                        <a href="#" onclick="sideBar.close()">내 채널 보기</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />Google 계정</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />계정 전환</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />로그아웃</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />YouTube 스튜디오</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />내 Premium 혜택</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />구매 항목 및 멤버십</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />YouTube 내 데이터</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />디자인: 기기 테마</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />언어: 한국어</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />제한 모드: 사용 안함</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />위치: 한국</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" rc="./icons/Close.svg" alt="" />단축키</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Settings.svg" alt="" />설정</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />고객센터</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />의견 보내기</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
         <script>
-            const sideBar2 = new SideBar('.js-side_bar2', 'left');
+            const sideBar = new SideBar('.js-side_bar-r', 'right');
+            const sideBar2 = new SideBar('.js-side_bar-l', 'left');
         </script>
     </body>
 </html>
