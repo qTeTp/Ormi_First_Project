@@ -112,9 +112,6 @@
                     <li>
                         <a href="#"><img class="icons" src="./icons/Subscriptions.svg" alt="구독" /> 구독</a>
                     </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Music.svg" alt="" /> YouTube Music</a>
-                    </li>
                 </ul>
                 <hr />
                 <ul>
@@ -128,17 +125,12 @@
                     <li>
                         <a href="#"><img class="icons" src="./icons/My.svg" alt="" />내 동영상</a>
                     </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Movie.svg" alt="" />내 영화</a>
-                    </li>
+
                     <li>
                         <a href="#"><img class="icons" src="./icons/History.svg" alt="" />나중에 볼 동영상</a>
                     </li>
                     <li>
                         <a href="#"><img class="icons" src="./icons/Like.svg" alt="" />좋아요 표시한 동영상</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Download.svg" alt="" />오프라인 저장 동영상</a>
                     </li>
                 </ul>
                 <hr />
@@ -154,58 +146,78 @@
         <div class="right_inner_body">
             <aside class="right_side_bar js-side_bar-r">
                 <ul>
-                    <li>
-                        <div><img class="profile-button" src="./imgs/profile_image.jpg" alt="" /> User</div>
-                        <a href="#" onclick="sideBar.close()">내 채널 보기</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />Google 계정</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />계정 전환</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />로그아웃</a>
-                    </li>
-                    <hr />
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />YouTube 스튜디오</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />내 Premium 혜택</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />구매 항목 및 멤버십</a>
+                    <li style="display: block; padding: 1rem">
+                        <div style="display: flex; align-items: center; gap: 0.75rem">
+                            <img
+                                class="profile-button"
+                                src="./imgs/profile_image.jpg"
+                                alt="프로필"
+                                style="width: 40px; height: 40px; border-radius: 50%"
+                            />
+                            User
+                        </div>
+                        <a
+                            href="#"
+                            onclick="sideBar.close()"
+                            style="display: block; color: #3ea6ff; font-size: 0.85rem; margin-top: 0.5rem"
+                            >내 채널 보기</a
+                        >
                     </li>
                     <hr />
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />YouTube 내 데이터</a>
+                        <a href="#"
+                            ><img class="icons" src="./icons/g_mobiledata_24dp_E3E3E3.svg" alt="" />Google 계정</a
+                        >
                     </li>
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />디자인: 기기 테마</a>
+                        <a href="#"
+                            ><img class="icons" src="./icons/switch_account_24dp_E3E3E3.svg" alt="" />계정 전환</a
+                        >
                     </li>
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />언어: 한국어</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />제한 모드: 사용 안함</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />위치: 한국</a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="icons" rc="./icons/Close.svg" alt="" />단축키</a>
+                        <a href="#"><img class="icons" src="./icons/logout_24dp_E3E3E3.svg" alt="" />로그아웃</a>
                     </li>
                     <hr />
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Settings.svg" alt="" />설정</a>
+                        <a href="#"><img class="icons" src="./icons/studio.svg" alt="" />YouTube 스튜디오</a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            ><img class="icons" src="./icons/paid_24dp_E3E3E3.svg" alt="" />구매 항목 및 멤버십</a
+                        >
                     </li>
                     <hr />
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />고객센터</a>
+                        <a href="#"><img class="icons" src="./icons/shield_person.svg" alt="" />YouTube 내 데이터</a>
                     </li>
                     <li>
-                        <a href="#"><img class="icons" src="./icons/Close.svg" alt="" />의견 보내기</a>
+                        <a href="#"
+                            ><img class="icons" src="./icons/mode_night_24dp_E3E3E3.svg" alt="" />디자인: 기기 테마</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/translate.svg" alt="" />언어: 한국어</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/shield_locked.svg" alt="" />제한 모드: 사용 안함</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/language_24dp_E3E3E3.svg" alt="" />위치: 한국</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/keyboard.svg" alt="" />단축키</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/settings_24dp_E3E3E3.svg" alt="" />설정</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/help_outline_24dp_E3E3E3.svg" alt="" />고객센터</a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icons" src="./icons/feedback.svg" alt="" />의견 보내기</a>
                     </li>
                 </ul>
             </aside>
