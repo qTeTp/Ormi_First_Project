@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script>
+            const response = {
+                text: '<p onmouseover="alert(\'해피 해킹^^\')">안녕하세요!</p>',
+            };
+            const container = document.getElementById('container');
+
+            // container.innerHTML = response.text;
+            container.textContent = response.text; // 이 줄은 HTML을 텍스트로 표시합니다.
+        </script>
+    </body>
+</html>
