@@ -13,8 +13,13 @@
     border-radius: 10px;
     overflow: hidden;
     color: white;
+    text-decoration: none;
 }
 
+.video-card a {
+    text-decoration: none;
+    color: inherit;
+}
 .thumbnail {
     width: 100%;
     height: auto;
