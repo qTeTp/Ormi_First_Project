@@ -3,8 +3,9 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 1rem 2rem;
-    margin-left: 250px; /* 사이드바 여백 */
-    margin-top: 80px; /* 네브바 여백 */
+    margin-left: 70px;
+    padding-top: 30px;
+    /* background-color: #181818; */
 }
 
 .video-card {

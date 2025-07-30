@@ -9,6 +9,9 @@
     width: 100%;
     background-color: #121212;
 }
+#videoGrid {
+    padding-top: 56px;
+}
 
 .navbar-nav {
     display: flex;
@@ -83,8 +86,7 @@ form.d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+
     background: #222;
     font-family: 'Poppins', sans-serif;
 }

@@ -1,3 +1,22 @@
+function initNavBar() {
+    const sideBarL = new SideBar('.js-side_bar-l', 'left');
+    const sideBarR = new SideBar('.js-side_bar-r', 'right');
+
+    document.querySelectorAll('.hamburger-button').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            sideBarL.open();
+        });
+    });
+
+    document.querySelectorAll('.profile-button').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            sideBarR.open();
+        });
+    });
+}
+
 class SideBar {
     constructor(target, direction) {
         if (typeof target === 'string') {
@@ -8,12 +27,12 @@ class SideBar {
 
         this.direction = direction;
         this.opend = false;
-        this.width = this.target.offsetWidth;
-        this.init();
-    }
 
-    init() {
-        this.target.style[this.direction] = `-${this.width}px`;
+        // 👉 DOM fully rendered 이후에 측정해야 함
+        requestAnimationFrame(() => {
+            this.width = this.target.offsetWidth || 240;
+            this.target.style[this.direction] = `-${this.width}px`;
+        });
     }
 
     open() {
