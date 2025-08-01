@@ -1,0 +1,376 @@
+/* videoDetail.css */
+
+body {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 100px;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+
+/* 비디오 플레이어 & 메타 정보 영역 */
+.video-detail-section {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.video-frame {
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.video-frame iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 320px;
+    border: none;
+    background: #000;
+}
+
+/* 비디오 메타정보 */
+.video-meta {
+    margin-top: 18px;
+    padding-bottom: 18px;
+}
+
+.video-meta h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.video-meta .meta-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 0.95rem;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+
+.video-meta .meta-row .channel {
+    font-weight: 500;
+    color: #fff;
+}
+
+.comments {
+}
+
+.comments h5 {
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/* 오른쪽 추천 영상 리스트 */
+.recommendations {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    overflow-y: auto;
+    min-width: 320px;
+}
+
+.recommendation-card {
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+    transition: background 0.15s;
+    padding: 7px 5px;
+    border-radius: 8px;
+    align-items: flex-start;
+}
+
+.channel-owner {
+    color: 241, 241, 241;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-size: 10px;
+    height: 43px;
+    min-width: 0px;
+    scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+    text-size-adjust: 100%;
+}
+
+.channel-img {
+    display: flex;
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    cursor: pointer;
+    border-image-repeat: stretch;
+    flex-basis: auto;
+    object-fit: cover;
+    height: 40px;
+    margin-right: 12px;
+    opacity: 1;
+    text-size-adjust: 100%;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    transition-property: none;
+    transition-timing-function: ease;
+    width: 40px;
+    overflow: hidden;
+}
+
+.channel-name {
+    background-size: auto;
+    border-bottom-color: rgb(241, 241, 241);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+
+    display: flex;
+    flex-basis: 1e-9px;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: 'Roboto', 'Arial', ' sans-serif';
+    font-size: 10px;
+    height: 43px;
+    justify-content: center;
+
+    margin-right: 24px;
+
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+}
+
+.channel-info-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.subscribe-button {
+    background-color: #d9d9d9;
+    color: #000;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    height: 36px;
+}
+
+.channel-actions {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: nowrap;
+}
+
+/* 좋아요 버튼 */
+.likeButton {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    padding: 6px;
+    padding-left: 9px;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* 버튼 사이에 border 위아래 갭 */
+.likeButton {
+    position: relative;
+}
+
+.likeButton::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    right: 0;
+    width: 1px;
+    background: #555;
+}
+
+.dislikeButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #333333;
+
+    border: none;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 5px;
+    align-items: center;
+
+    flex-wrap: nowrap;
+}
+
+/* 버튼 내 이미지 센터 */
+.likeButton img,
+.dislikeButton img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.shareButton {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 6px;
+    margin-right: 5px;
+    align-items: center;
+    display: row;
+    flex-wrap: nowrap;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.shareButton img {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.moreButton {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #333333;
+
+    border: none;
+    padding: 6px;
+    align-items: center;
+    display: row;
+    flex-wrap: nowrap;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.video-info {
+    margin-top: 16px;
+    color: #aaa;
+    font-size: 0.9rem;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 8px;
+}
+.recommendation-card:hover {
+    background-color: #222;
+}
+
+.recommendation-card img.thumbnail {
+    width: 168px;
+    height: 94px;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #222;
+    flex-shrink: 0;
+}
+
+.recommendation-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #ccc;
+    min-width: 0;
+}
+
+.recommendation-info h6 {
+    font-size: 1rem;
+    margin: 0 0 6px 0;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.recommendation-info p {
+    font-size: 0.92rem;
+    margin: 0 0 2px 0;
+    color: #aaa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.recommendation-info .meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 2px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1100px) {
+    .main-container {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 2vw 0 2vw;
+    }
+    .recommendations {
+        flex-direction: row;
+        max-height: none;
+        overflow-x: auto;
+        min-width: 0;
+        padding-bottom: 10px;
+        gap: 14px;
+    }
+    .recommendation-card {
+        flex-direction: column;
+        align-items: center;
+        min-width: 180px;
+        max-width: 240px;
+        width: 90vw;
+    }
+    .recommendation-card img.thumbnail {
+        width: 100%;
+        height: auto;
+        min-width: 120px;
+        max-width: 240px;
+    }
+    .recommendation-info {
+        align-items: center;
+        text-align: center;
+        margin-top: 6px;
+    }
+}

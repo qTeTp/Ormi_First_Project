@@ -2,16 +2,16 @@ async function loadComponent(id, path) {
     const res = await fetch(path);
     const html = await res.text();
     document.getElementById(id).innerHTML = html;
-    console.log(`Loaded ${id} from ${path}`);
 
-    if (id === 'navbar') {
-        console.log('Checking for initNavBar:', typeof initNavBar);
-        if (typeof initNavBar === 'function') {
-            console.log('Calling initNavBar...');
-            initNavBar();
-        } else {
-            console.warn('initNavBar is not defined');
-        }
+    // 네비바랑 비디오그리드 불러와서 js 실행
+    if (id === 'navbar' && typeof initNavBar === 'function') {
+        initNavBar();
+    }
+
+    if (id === 'videoGrid') {
+        const script = document.createElement('script');
+        script.src = './videoGrid.js';
+        document.body.appendChild(script);
     }
 }
 
