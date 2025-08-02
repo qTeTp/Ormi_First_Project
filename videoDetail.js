@@ -37,11 +37,11 @@ async function loadVideoDetail() {
     const video = videos.find((v) => v.id == videoId);
     if (!video) return;
 
-    // 좋아요/싫어요 상태 변수
+    // 좋아요 싫어요 상태 변수
     let liked = false;
     let disliked = false;
 
-    // 댓글 리스트 복사본 (화면에서만 사용)
+    // 댓글 리스트
     let comments = video.commentsList ? [...video.commentsList] : [];
 
     document.getElementById('videoPlayer').src = video.embedUrl;
@@ -61,20 +61,19 @@ async function loadVideoDetail() {
             </div>
 
             <div class="channel-actions">
-                <button class="likeButton">
-                    <img src="./icons/Like.svg" alt="좋아요" style="width: 20px; height: 20px; ">
-                    <span style="font-size:15px; margin-right:4px">${video.likes}</span>
-                    
+               <button class="likeButton" id="likeBtn" style="color:white">
+                    <img src="./icons/Like.svg" alt="좋아요" style="width: 20px; height: 20px;">
+                    <span id="likeCount" style="font-size:15px; margin-right:4px">${video.likes}</span>
                 </button>
-                <button class="dislikeButton">
-                    <img src="./icons/DisLike.svg" alt="싫어요" style="width: 20px; height: 20px; ">
+                <button class="dislikeButton" id="dislikeBtn">
+                    <img src="./icons/DisLike.svg" alt="싫어요" style="width: 20px; height: 20px;">
                 </button>
                 <button class="shareButton">
                     <img src="./icons/Share.svg" alt="공유" style="width: 20px; height: 20px; ">
                     <span style="font-size:15px; margin-right:4px">공유</span>
                 </button>
                 <button class="moreButton">
-                    <img src="./icons/More.svg" alt="더보기" style="width: 20px; height: 20px;     vertical-align: middle;">
+                    <img src="./icons/More.svg" alt="더보기" style="width: 20px; height: 20px; vertical-align: middle;">
                 </button>
         
             </div>
@@ -92,9 +91,7 @@ async function loadVideoDetail() {
         document.getElementById('commentsList').innerHTML = `
             <h5>댓글 ${comments.length}개</h5>
             <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
-                <img src="./imgs/my_profile.gif"
-                    
-                " alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
+                <img src="./imgs/my_profile.gif" alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
                 <input id="commentInput" type="text" placeholder="댓글 추가..." style="flex:1; padding:8px; background-color: transparent; color:#fff;">
                 <button id="addCommentBtn" class="btn btn-blue rounded-pill" style="height:36px;">등록</button>
             </div>
@@ -135,7 +132,43 @@ async function loadVideoDetail() {
     }
     renderComments();
 
-    // 추천 영상도 로드
+    // 좋아요/싫어요 버튼 기능
+    const likeBtn = document.getElementById('likeBtn');
+    const dislikeBtn = document.getElementById('dislikeBtn');
+    const likeCount = document.getElementById('likeCount');
+    let currentLikes = video.likes;
+
+    likeBtn.onclick = () => {
+        const likeImg = likeBtn.querySelector('img');
+        const dislikeImg = dislikeBtn.querySelector('img');
+        if (!liked) {
+            currentLikes += 1;
+            liked = true;
+            disliked = false;
+            likeImg.src = './icons/Like_fill.svg'; // 채워진 좋아요
+            dislikeImg.src = './icons/DisLike.svg'; // 빈 싫어요
+        } else {
+            currentLikes -= 1;
+            liked = false;
+            likeImg.src = './icons/Like.svg'; // 빈 좋아요
+        }
+        likeCount.textContent = currentLikes;
+    };
+
+    dislikeBtn.onclick = () => {
+        const likeImg = likeBtn.querySelector('img');
+        const dislikeImg = dislikeBtn.querySelector('img');
+        if (liked) {
+            currentLikes -= 1;
+            liked = false;
+            likeImg.src = './icons/Like.svg'; // 빈 좋아요
+        }
+        disliked = !disliked;
+        dislikeImg.src = disliked ? './icons/DisLike_fill.svg' : './icons/DisLike.svg';
+        likeCount.textContent = currentLikes;
+    };
+
+    // 추천 영상
     loadRecommendations(videoId);
 }
 

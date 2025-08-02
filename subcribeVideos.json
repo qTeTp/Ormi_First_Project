@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "thumbnail": "https://i.ytimg.com/vi/LbGS7s67Rh0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDy331deMGQYMotPeBhmv99ShZW7A",
+        "videoUrl": "https://www.youtube.com/watch?v=LbGS7s67Rh0&t=107s",
+        "embedUrl": "https://www.youtube.com/embed/LbGS7s67Rh0?si=LTGCTHLTc1Uv-7Ds",
+        "videoLength": "5:21",
+        "title": "진격의거인보면 네트워크 고수됨",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "12만회",
+        "uploadDate": "3일 전",
+        "videoDetail": "진격의거인 설명회 AWS버전",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "thumbnail": "https://i.ytimg.com/vi/_dQ03zm3A-M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3OSA5a9DxVeTb4o5UGLmZ22b-zA",
+        "videoUrl": "https://www.youtube.com/watch?v=_dQ03zm3A-M",
+        "embedUrl": "https://www.youtube.com/embed/_dQ03zm3A-M?si=zh9QY39lgEjtbgF8",
+        "videoLength": "4:21",
+        "title": "게임 불법복제에 대한 개발자들의 귀여운 복수",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "8.1만회",
+        "uploadDate": "3일 전",
+        "videoDetail": "셀프 DRM",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            },
+            {
+                "commentId": 2,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "개발자",
+                "commentText": "이런 방법도 있군요!",
+                "likes": 15
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "thumbnail": "https://i.ytimg.com/vi/FG1h4ik53eg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAqF1QquKtFdxwQOPzkrg_PkC29hw",
+        "videoUrl": "https://www.youtube.com/watch?v=FG1h4ik53eg&t=1s",
+        "embedUrl": "https://www.youtube.com/embed/FG1h4ik53eg?si=yOx17Gj11evVY6Yc",
+        "videoLength": "5:00",
+        "title": "링크 하나로 진짜 개인정보를 '털' 수 있을까",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "12만회",
+        "uploadDate": "3달 전",
+        "videoDetail": "역시 유튜브 영상도 함부로 누르면 위험합니다",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            },
+            {
+                "commentId": 2,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "개발자",
+                "commentText": "이런 방법도 있군요!",
+                "likes": 15
+            },
+            {
+                "commentId": 3,
+                "profileImg": "./imgs/profile_image.jpg",
+                "username": "보안전문가",
+                "commentText": "링크 클릭 조심해야겠네요!",
+                "likes": 30
+            }
+        ]
+    }
+]
