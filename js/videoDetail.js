@@ -22,7 +22,7 @@ async function loadRecommendations(currentVideoId) {
             </div>
         `;
         card.addEventListener('click', () => {
-            window.location.href = `html/videoDetail.html?id=${video.id}`;
+            window.location.href = `html/videoPage.html?id=${video.id}`;
         });
         container.appendChild(card);
     });
