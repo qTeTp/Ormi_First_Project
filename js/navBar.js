@@ -26,6 +26,11 @@ class SideBar {
             this.target = target;
         }
 
+        if (!this.target) {
+            console.warn(`[SideBar] Target "${target}" not found.`);
+            return;
+        }
+
         this.direction = direction;
         this.opend = false;
 
@@ -36,6 +41,8 @@ class SideBar {
     }
 
     open() {
+        if (!this.target) return;
+
         if (this.opend) {
             this.close();
             return;
@@ -45,6 +52,7 @@ class SideBar {
     }
 
     close() {
+        if (!this.target) return;
         this.target.style[this.direction] = `-${this.width}px`;
         this.opend = false;
     }
