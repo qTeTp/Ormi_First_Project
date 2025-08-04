@@ -30,24 +30,24 @@
 - 시연 영상
 - 프로젝트 타임라인
     
-    https://www.notion.so/image/attachment%3A86fdb522-67d4-406f-b746-50925b8fe83c%3Aimage.png?table=block&id=245fa30f-4a77-8034-b488-cb6899d09a99&spaceId=df2bf3ed-fb5c-481b-a650-2cb98af83e43&width=2000&userId=72f79e43-fcd9-4cd9-ac59-9f93f1afe5fc&cache=v2
+    <img width="1527" height="537" alt="Image" src="https://github.com/user-attachments/assets/f596301d-9907-42a0-8d30-58f88ed14482" />
     
 - UI 구성도
     
-    <img width="1527" height="537" alt="Image" src="https://github.com/user-attachments/assets/15bf21bd-3611-4257-b264-256044e7d5d4" />
-    
-    <img width="1421" height="877" alt="Image" src="https://github.com/user-attachments/assets/0bd61b4b-f1cf-426f-866f-421e0eb7ea8d" />
+    <img width="1421" height="877" alt="Image" src="https://github.com/user-attachments/assets/59364421-80c6-4de4-9d71-dacf2d890637" />
+
+    <img width="1415" height="670" alt="Image" src="https://github.com/user-attachments/assets/e60ddbc6-9345-4e4a-8628-5eb443348904" />
     
 
 ## 🔍 주요 기능
 
 - 좌/우측 동적 사이드바
 
-<img width="1415" height="670" alt="Image" src="https://github.com/user-attachments/assets/a5bdfe95-00ab-4516-8f7d-e89b40c054b2" />
+<img width="1347" height="679" alt="Image" src="https://github.com/user-attachments/assets/7a0a651e-f896-498e-8726-75e22eb90d96" />
 
 - 영상 썸네일 호버 시 이미지 확대
 
-<img width="1920" height="1112" alt="Image" src="https://github.com/user-attachments/assets/abd895ab-9863-415d-b82c-6e4733fc46c6" />
+<img width="1920" height="1112" alt="Image" src="https://github.com/user-attachments/assets/0068a408-2ca5-4550-8cb8-9ee2bf9d9e1d" />
 
 - 구독 페이지
 
