@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
 .logo {
-    height: 55px;
+    height: 25px;
+    flex-shrink: 0;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
     background-color: #121212;
+    display: block !important;
+    z-index: 10000;
 }
+
 #videoGrid {
     padding-top: 56px;
 }
@@ -17,6 +21,7 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    flex-shrink: 0;
 }
 
 form.d-flex {
@@ -24,13 +29,22 @@ form.d-flex {
     min-width: 0;
 }
 
+#center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
 /* 검색 창 */
 .custom-searchfiled {
-    display: block;
-    flex: 1 1 100px;
-    min-width: 100px;
-    max-width: 500px;
-    width: 100%;
+    flex: 1 1 auto;
+    min-width: 50px;
+    max-width: 600px;
+    width: 50%;
     background-color: #121212;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -46,6 +60,7 @@ form.d-flex {
 
 /* 검색 버튼 */
 .custom-searchButton {
+    flex-shrink: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 1rem;
@@ -118,7 +133,7 @@ form.d-flex {
     top: 0;
     width: 250px;
     height: 100%;
-    background: #111;
+    background: #121212;
     margin-top: 60px;
     z-index: 9999;
 }
@@ -155,7 +170,14 @@ form.d-flex {
 aside.side_bar hr {
     border: none;
     border-top: 1px solid #444; /* 원하는 색상 */
-    margin: 1rem 0;
+}
+
+.side-icons {
+    width: 30px;
+    height: 30px;
+    padding-right: 2px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
 /* 버튼 테두리 */
@@ -179,8 +201,17 @@ aside.side_bar hr {
 .icons {
     width: 30px;
     height: 30px;
-    padding-right: 2px;
     vertical-align: middle;
+}
+
+.transparent-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
 }
 
 /* 정적 사이드바 */
@@ -190,7 +221,7 @@ aside.side_bar hr {
     left: 0;
     width: 72px;
     height: 100%;
-    background-color: #121212;
+    background-color: transparent;
     font-size: small;
     text-align: center;
     padding-left: 4px;
@@ -231,15 +262,6 @@ aside.side_bar hr {
     unicode-bidi: isolate;
 }
 
-.right_inner_body button {
-    display: inline-block;
-    color: #eee;
-    background-color: transparent;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 0 5px;
-}
-
 .right_side_bar ul {
     list-style: none;
     padding: 0;
@@ -247,7 +269,7 @@ aside.side_bar hr {
 }
 
 .right_side_bar li {
-    padding: 0.75rem 1.25rem;
+    padding: 0.3rem 1.25rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -261,7 +283,6 @@ aside.side_bar hr {
 
 .right_side_bar ul li {
     width: 100%;
-    padding: 10px 10%;
 }
 
 .right_side_bar ul li a {
@@ -271,6 +292,6 @@ aside.side_bar hr {
 
 aside.right_side_bar hr {
     border: none;
-    border-top: 1px solid #444; /* 원하는 색상 */
-    margin: 1rem 0;
+    border-top: 1px solid #444;
+    margin: 4px 0;
 }

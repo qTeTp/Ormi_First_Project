@@ -16,7 +16,8 @@ fetch('../json/Videos.json')
                         <img src="${video.profileImg}" class="channel-icon" />
                         <div class="video-text">
                             <h6>${video.title}</h6>
-                            <p>${video.channelName} • 조회수 ${video.views} • ${video.uploadDate}</p>
+                            <p>${video.channelName}</p>
+                            <p>조회수 ${video.views} • ${video.uploadDate}</p>
                         </div>
                     </div>
                 </a>

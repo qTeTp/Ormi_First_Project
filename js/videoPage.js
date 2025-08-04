@@ -5,7 +5,7 @@ async function loadComponent(id, path, jsPath) {
 
     container.innerHTML = html;
 
-    // HTML 넣고 나서 script 로드
+    // script 로드
     if (jsPath) {
         const script = document.createElement('script');
         script.src = jsPath;
@@ -13,9 +13,8 @@ async function loadComponent(id, path, jsPath) {
         document.body.appendChild(script);
     }
 
-    // 네비바 초기화 함수 실행
+    // 네비바 초기화 함수
     if (id === 'navbar') {
-        // HTML 먼저 들어가야 함수도 바인딩돼 있음
         setTimeout(() => {
             if (typeof initNavBar === 'function') {
                 initNavBar();
@@ -24,6 +23,7 @@ async function loadComponent(id, path, jsPath) {
     }
 }
 
+// 페이지 로드 시 컴포넌트 불러오기
 window.addEventListener('DOMContentLoaded', () => {
     loadComponent('navbar', '../html/navbar.html', '../js/navBar.js');
     loadComponent('videoDetail', '../html/videoDetail.html', '../js/videoDetail.js');

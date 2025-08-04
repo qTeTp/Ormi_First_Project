@@ -17,7 +17,8 @@ async function loadRecommendations(currentVideoId) {
             <div class="recommendation-info">
                 <h6>${video.title}</h6>
                 <p>${video.channelName}</p>
-                <p>${video.views} 조회수</p>
+                <p></p>
+                <p>조회수 ${video.views} • ${video.uploadDate}</p>
             </div>
         `;
         card.addEventListener('click', () => {

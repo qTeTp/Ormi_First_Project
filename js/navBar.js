@@ -1,3 +1,4 @@
+// 출처 : https://frontend-bear.tistory.com/16
 function initNavBar() {
     const sideBarL = new SideBar('.js-side_bar-l', 'left');
     const sideBarR = new SideBar('.js-side_bar-r', 'right');
@@ -28,7 +29,6 @@ class SideBar {
         this.direction = direction;
         this.opend = false;
 
-        // 👉 DOM fully rendered 이후에 측정해야 함
         requestAnimationFrame(() => {
             this.width = this.target.offsetWidth || 240;
             this.target.style[this.direction] = `-${this.width}px`;
