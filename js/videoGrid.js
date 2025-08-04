@@ -9,7 +9,7 @@ fetch('json/videos.json')
             card.className = 'video-card';
 
             card.innerHTML = `
-                <a href="videoPage.html?id=${video.id}">
+                <a href="html/videoPage.html?id=${video.id}">
                     <img src="${video.thumbnail}" class="thumbnail" />
                     <div class="video-info">
                         <img src="${video.profileImg}" class="channel-icon" />

@@ -67,7 +67,7 @@ async function loadVideoDetail() {
                     <span id="likeCount" style="font-size:15px; margin-right:4px">${video.likes}</span>
                 </button>
                 <button class="dislikeButton" id="dislikeBtn">
-                    <img src="icons/DisLike.svg" alt="싫어요" style="width: 20px; height: 20px;">
+                    <img src="icons/Dislike.svg" alt="싫어요" style="width: 20px; height: 20px;">
                 </button>
                 <button class="shareButton">
                     <img src="icons/Share.svg" alt="공유" style="width: 20px; height: 20px; ">
@@ -146,8 +146,8 @@ async function loadVideoDetail() {
             currentLikes += 1;
             liked = true;
             disliked = false;
-            likeImg.src = 'icons/Like_fill.svg';
-            dislikeImg.src = 'icons/DisLike.svg';
+            likeImg.src = 'icons/Like_Fill.svg';
+            dislikeImg.src = 'icons/Dislike.svg';
         } else {
             currentLikes -= 1;
             liked = false;
@@ -165,7 +165,7 @@ async function loadVideoDetail() {
             likeImg.src = 'icons/Like.svg';
         }
         disliked = !disliked;
-        dislikeImg.src = disliked ? 'icons/DisLike_fill.svg' : 'icons/DisLike.svg';
+        dislikeImg.src = disliked ? 'icons/Dislike_Fill.svg' : 'icons/Dislike.svg';
         likeCount.textContent = currentLikes;
     };
 

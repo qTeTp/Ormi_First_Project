@@ -25,6 +25,6 @@ async function loadComponent(id, path, jsPath) {
 
 // 페이지 로드 시 컴포넌트 불러오기
 window.addEventListener('DOMContentLoaded', () => {
-    loadComponent('navbar', 'html/navbar.html', 'js/navBar.js');
+    loadComponent('navbar', 'html/navBar.html', 'js/navBar.js');
     loadComponent('videoDetail', 'html/videoDetail.html', 'js/videoDetail.js');
 });
