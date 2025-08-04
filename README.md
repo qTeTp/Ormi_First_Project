@@ -30,7 +30,7 @@
 - 시연 영상
 - 프로젝트 타임라인
     
-    ![image.png](attachment:86fdb522-67d4-406f-b746-50925b8fe83c:image.png)
+    https://www.notion.so/image/attachment%3A86fdb522-67d4-406f-b746-50925b8fe83c%3Aimage.png?table=block&id=245fa30f-4a77-8034-b488-cb6899d09a99&spaceId=df2bf3ed-fb5c-481b-a650-2cb98af83e43&width=2000&userId=72f79e43-fcd9-4cd9-ac59-9f93f1afe5fc&cache=v2
     
 - UI 구성도
     
@@ -43,7 +43,7 @@
 
 - 좌/우측 동적 사이드바
 
-![image.png](attachment:534e2077-451b-4092-a832-59aa5a210845:image.png)
+[![image.png](attachment:534e2077-451b-4092-a832-59aa5a210845:image.png)](https://www.notion.so/image/attachment%3A534e2077-451b-4092-a832-59aa5a210845%3Aimage.png?table=block&id=245fa30f-4a77-8093-a4ce-cc70e5e57245&spaceId=df2bf3ed-fb5c-481b-a650-2cb98af83e43&width=2000&userId=72f79e43-fcd9-4cd9-ac59-9f93f1afe5fc&cache=v2)
 
 - 영상 썸네일 호버 시 이미지 확대
 
@@ -73,6 +73,7 @@
 
 ## 🧱 폴더 구조
 
+```
 /Ormi_First_Project/
 ├── html/
 │ ├── mainPage.html
@@ -102,7 +103,7 @@
 ├── imgs/
 ├── favicon.ico
 └── README.md
-
+```
 ## 🎯 문제 상황 및 해결 방법
 
 - 배포 시 부트스트랩이 적용되지 않음
