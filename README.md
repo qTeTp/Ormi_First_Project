@@ -43,11 +43,11 @@
 
 - 좌/우측 동적 사이드바
 
-<img width="1347" height="679" alt="Image" src="https://github.com/user-attachments/assets/7a0a651e-f896-498e-8726-75e22eb90d96" />
+<img width="1920" height="1112" alt="Image" src="https://github.com/user-attachments/assets/0068a408-2ca5-4550-8cb8-9ee2bf9d9e1d" />
 
 - 영상 썸네일 호버 시 이미지 확대
 
-<img width="1920" height="1112" alt="Image" src="https://github.com/user-attachments/assets/0068a408-2ca5-4550-8cb8-9ee2bf9d9e1d" />
+<img width="1347" height="679" alt="Image" src="https://github.com/user-attachments/assets/7a0a651e-f896-498e-8726-75e22eb90d96" />
 
 - 구독 페이지
 
@@ -59,13 +59,11 @@
 
 - 영상 페이지 추천 영상 반응형
 
-<img width="1920" height="1518" alt="Image" src="https://github.com/user-attachments/assets/7414cc7d-204a-4dc1-82e7-26b782330675" />
-
 <img width="1041" height="1725" alt="Image" src="https://github.com/user-attachments/assets/cc75454c-479f-4fe8-b659-5f2afb8129db" />
 
 - 좋아요 구현
 
-<img width="1920" height="1518" alt="Image" src="https://github.com/user-attachments/assets/66380348-5ada-4f6b-842c-a1cc25c20890" />
+<img width="1385" height="359" alt="Image" src="https://github.com/user-attachments/assets/30b26465-eb74-4383-8ee3-8053ba476ea6" />
 
 - 댓글 기능 구현
 
