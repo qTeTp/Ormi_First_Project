@@ -126,3 +126,19 @@
             <!-- 개발 시 -->
             <base href="/" />
     ```
+
+## 👀 참고자료 및 문헌
+
+### 동적 사이드바
+
+https://frontend-bear.tistory.com/16
+
+### 유튜브 아이콘 모음
+
+https://www.figma.com/community/file/1249056955109593934/youtube-icon
+
+https://fonts.google.com/icons?icon.set=Material+Icons&icon.size=24&icon.color=%23e3e3e3
+
+### 부트캔버스 - 오프캔버스
+
+https://jaycoding.com/bootstrap/index.php?keyword=offcanvas&cat=7-5
