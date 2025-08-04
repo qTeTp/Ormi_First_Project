@@ -16,6 +16,6 @@ async function loadComponent(id, path) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    loadComponent('navbar', 'html/navbar.html');
+    loadComponent('navbar', 'html/navBar.html');
     loadComponent('videoGrid', 'html/subscribeGrid.html');
 });

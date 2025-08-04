@@ -17,14 +17,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "개발자A",
                 "commentText": "개발자 브이로그 너무 재밌어요!",
                 "likes": 10
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "개발자B",
                 "commentText": "이런 브이로그 더 올려주세요!",
                 "likes": 5
@@ -49,14 +49,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "요리왕",
                 "commentText": "셰프님 요리 진짜 맛있어 보여요!",
                 "likes": 20
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "집들이 초대",
                 "commentText": "다음 집들이도 기대할게요!",
                 "likes": 15
@@ -81,21 +81,21 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "기술덕후",
                 "commentText": "폴드7 진짜 기대되네요! 다음 리뷰도 기다릴게요!",
                 "likes": 30
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "스마트폰 매니아",
                 "commentText": "폴드8에서 UDC가 부활한다면 정말 기대됩니다!",
                 "likes": 25
             },
             {
                 "commentId": 3,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "폴더블 팬",
                 "commentText": "두목님이 더 멋져요!",
                 "likes": 15
@@ -120,14 +120,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "불닭 팬",
                 "commentText": "홍초불닭 진짜 오랜만에 보네요! 추억 돋아요!",
                 "likes": 40
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "면 요리사",
                 "commentText": "요멘췍 해주시면 안될까요?",
                 "likes": 25
@@ -152,14 +152,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "마우스 애호가",
                 "commentText": "로지텍 LIFT 진짜 기대되네요! 사용해보고 싶어요!",
                 "likes": 15
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "기술 리뷰어",
                 "commentText": "해용님 리뷰 항상 잘 보고 있어요!",
                 "likes": 10
@@ -184,14 +184,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "요리 초보",
                 "commentText": "뚝딱이형님 레시피 너무 좋아요! 냉모밀 꼭 만들어볼게요!",
                 "likes": 25
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "냉모밀 팬",
                 "commentText": "반값으로 만들 수 있다니 정말 유용한 정보네요!",
                 "likes": 18
@@ -216,14 +216,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "고기 애호가",
                 "commentText": "찬밥식당님 소고기 요리 정말 맛있어 보여요! 다음 영상도 기대할게요!",
                 "likes": 35
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "식사 준비",
                 "commentText": "한달치 소고기 8만원이면 정말 경제적이네요!",
                 "likes": 20
@@ -248,14 +248,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "게장 팬",
                 "commentText": "장충동 왕족발 보쌈~!",
                 "likes": 50
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "먹방 애호가",
                 "commentText": "말왕님 먹방은 언제나 재밌어요!",
                 "likes": 30
@@ -280,7 +280,7 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "코밑",
                 "commentText": "역시 형님이십니다",
                 "likes": 20
@@ -305,14 +305,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "코밑",
                 "commentText": "역시 형님이십니다",
                 "likes": 20
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "개발자",
                 "commentText": "이런 방법도 있군요!",
                 "likes": 15
@@ -337,21 +337,21 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "코밑",
                 "commentText": "역시 형님이십니다",
                 "likes": 20
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "개발자",
                 "commentText": "이런 방법도 있군요!",
                 "likes": 15
             },
             {
                 "commentId": 3,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "보안전문가",
                 "commentText": "링크 클릭 조심해야겠네요!",
                 "likes": 30
@@ -376,14 +376,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "코밑",
                 "commentText": "역시 형님이십니다",
                 "likes": 20
             },
             {
                 "commentId": 2,
-                "profileImg": "../imgs/profile_image.jpg",
+                "profileImg": "imgs/profile_image.jpg",
                 "username": "현우진",
                 "commentText": "최태원이 더 레전드임ㅋㅋㅋ",
                 "likes": 20

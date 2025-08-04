@@ -4,8 +4,6 @@ body {
     background-color: #0f0f0f;
     color: #f1f1f1;
     font-family: 'Roboto', 'Arial', sans-serif;
-    margin-right: 60px;
-
     padding: 0;
 }
 
@@ -88,6 +86,7 @@ p {
     overflow-y: auto;
     min-width: 220px;
     max-width: 400px;
+    margin-right: 60px;
 }
 
 .recommendation-card {
@@ -357,9 +356,12 @@ p {
     .recommendations {
         flex-direction: column;
         overflow-x: auto;
+        align-items: center;
+        flex-direction: center;
         min-width: 0;
         padding-bottom: 10px;
         gap: 14px;
+        max-width: 800px;
     }
 
     .recommendation-card {
@@ -370,6 +372,8 @@ p {
     .recommendation-card img.thumbnail {
         width: 100%;
         height: auto;
+        aspect-ratio: 16 / 9;
+
         object-fit: cover;
         border-radius: 6px;
     }
