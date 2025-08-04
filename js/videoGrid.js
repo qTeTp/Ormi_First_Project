@@ -1,7 +1,7 @@
 const container = document.querySelector('.video-grid');
 
 // 페치로 불러옴
-fetch('./videos.json')
+fetch('../json/videos.json')
     .then((res) => res.json())
     .then((videos) => {
         videos.forEach((video) => {
@@ -23,4 +23,4 @@ fetch('./videos.json')
             container.appendChild(card);
         });
     })
-    .catch((err) => console.error('videoGrid.js fetch error:', err));
+    .catch((err) => console.error('fetch error:', err));

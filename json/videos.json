@@ -1,30 +1,5 @@
 [
     {
-        "id": 0,
-        "thumbnail": "https://i.ytimg.com/vi/vW-aeYFUkYg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLATl-uArvPWnA22BC-QYmNAN2FbOg",
-        "videoUrl": "https://www.youtube.com/watch?v=vW-aeYFUkYg",
-        "embedUrl": "https://www.youtube.com/embed/vW-aeYFUkYg?si=w18CLUONfer3EMM7",
-        "videoLength": "3:25",
-        "title": "[F1 더 무비]ㅣ❤️‍🔥 고속도로에서 절대 틀면 안 되는 노래 ❤️‍🔥",
-        "profileImg": "https://yt3.ggpht.com/h95xT7epbaBhxM7k_HRr_D8fes-CJG41c2Nx2s4v1HTh0VFpemHIUEv6Dq5y126KCx88dmiSYQ=s68-c-k-c0x00ffffff-no-rj",
-        "channelName": "띵작발굴단",
-        "subscribeCount": "2.34천명",
-        "views": "4.5만회",
-        "uploadDate": "3주 전",
-        "videoDetail": "*본 영상은 수익 창출을 하지 않습니다",
-        "likes": 1234,
-        "dislikes": 2,
-        "commentsList": [
-            {
-                "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
-                "username": "영화 팬",
-                "commentText": "이 노래는 정말 고속도로에서 듣기 딱이네요!",
-                "likes": 20
-            }
-        ]
-    },
-    {
         "id": 1,
         "thumbnail": "https://i.ytimg.com/vi/wRmHAsEFO8g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAc74pHKAD08zabIm6PtEXyUnvVnQ",
         "videoUrl": "https://www.youtube.com/watch?v=wRmHAsEFO8g",
@@ -42,14 +17,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "개발자A",
                 "commentText": "개발자 브이로그 너무 재밌어요!",
                 "likes": 10
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "개발자B",
                 "commentText": "이런 브이로그 더 올려주세요!",
                 "likes": 5
@@ -74,14 +49,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "요리왕",
                 "commentText": "셰프님 요리 진짜 맛있어 보여요!",
                 "likes": 20
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "집들이 초대",
                 "commentText": "다음 집들이도 기대할게요!",
                 "likes": 15
@@ -106,21 +81,21 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "기술덕후",
                 "commentText": "폴드7 진짜 기대되네요! 다음 리뷰도 기다릴게요!",
                 "likes": 30
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "스마트폰 매니아",
                 "commentText": "폴드8에서 UDC가 부활한다면 정말 기대됩니다!",
                 "likes": 25
             },
             {
                 "commentId": 3,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "폴더블 팬",
                 "commentText": "두목님이 더 멋져요!",
                 "likes": 15
@@ -145,14 +120,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "불닭 팬",
                 "commentText": "홍초불닭 진짜 오랜만에 보네요! 추억 돋아요!",
                 "likes": 40
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "면 요리사",
                 "commentText": "요멘췍 해주시면 안될까요?",
                 "likes": 25
@@ -177,14 +152,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "마우스 애호가",
                 "commentText": "로지텍 LIFT 진짜 기대되네요! 사용해보고 싶어요!",
                 "likes": 15
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "기술 리뷰어",
                 "commentText": "해용님 리뷰 항상 잘 보고 있어요!",
                 "likes": 10
@@ -209,14 +184,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "요리 초보",
                 "commentText": "뚝딱이형님 레시피 너무 좋아요! 냉모밀 꼭 만들어볼게요!",
                 "likes": 25
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "냉모밀 팬",
                 "commentText": "반값으로 만들 수 있다니 정말 유용한 정보네요!",
                 "likes": 18
@@ -241,14 +216,14 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "고기 애호가",
                 "commentText": "찬밥식당님 소고기 요리 정말 맛있어 보여요! 다음 영상도 기대할게요!",
                 "likes": 35
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "식사 준비",
                 "commentText": "한달치 소고기 8만원이면 정말 경제적이네요!",
                 "likes": 20
@@ -273,17 +248,145 @@
         "commentsList": [
             {
                 "commentId": 1,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "게장 팬",
                 "commentText": "장충동 왕족발 보쌈~!",
                 "likes": 50
             },
             {
                 "commentId": 2,
-                "profileImg": "./imgs/profile_image.jpg",
+                "profileImg": "../imgs/profile_image.jpg",
                 "username": "먹방 애호가",
                 "commentText": "말왕님 먹방은 언제나 재밌어요!",
                 "likes": 30
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "thumbnail": "https://i.ytimg.com/vi/LbGS7s67Rh0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDy331deMGQYMotPeBhmv99ShZW7A",
+        "videoUrl": "https://www.youtube.com/watch?v=LbGS7s67Rh0&t=107s",
+        "embedUrl": "https://www.youtube.com/embed/LbGS7s67Rh0?si=LTGCTHLTc1Uv-7Ds",
+        "videoLength": "5:21",
+        "title": "진격의거인보면 네트워크 고수됨",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "12만회",
+        "uploadDate": "3일 전",
+        "videoDetail": "진격의거인 설명회 AWS버전",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "thumbnail": "https://i.ytimg.com/vi/_dQ03zm3A-M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3OSA5a9DxVeTb4o5UGLmZ22b-zA",
+        "videoUrl": "https://www.youtube.com/watch?v=_dQ03zm3A-M",
+        "embedUrl": "https://www.youtube.com/embed/_dQ03zm3A-M?si=zh9QY39lgEjtbgF8",
+        "videoLength": "4:21",
+        "title": "게임 불법복제에 대한 개발자들의 귀여운 복수",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "8.1만회",
+        "uploadDate": "3일 전",
+        "videoDetail": "셀프 DRM",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            },
+            {
+                "commentId": 2,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "개발자",
+                "commentText": "이런 방법도 있군요!",
+                "likes": 15
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "thumbnail": "https://i.ytimg.com/vi/FG1h4ik53eg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAqF1QquKtFdxwQOPzkrg_PkC29hw",
+        "videoUrl": "https://www.youtube.com/watch?v=FG1h4ik53eg&t=1s",
+        "embedUrl": "https://www.youtube.com/embed/FG1h4ik53eg?si=yOx17Gj11evVY6Yc",
+        "videoLength": "5:00",
+        "title": "링크 하나로 진짜 개인정보를 '털' 수 있을까",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "12만회",
+        "uploadDate": "3달 전",
+        "videoDetail": "역시 유튜브 영상도 함부로 누르면 위험합니다",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            },
+            {
+                "commentId": 2,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "개발자",
+                "commentText": "이런 방법도 있군요!",
+                "likes": 15
+            },
+            {
+                "commentId": 3,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "보안전문가",
+                "commentText": "링크 클릭 조심해야겠네요!",
+                "likes": 30
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "thumbnail": "https://i.ytimg.com/vi/4Xze-DEGN7c/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDikE28rq9NaLj888N5Ga1-UY4hHw",
+        "videoUrl": "https://www.youtube.com/watch?v=4Xze-DEGN7c&t=64s",
+        "embedUrl": "https://www.youtube.com/embed/4Xze-DEGN7c?si=xDDKQJwLuAUnEIvW",
+        "videoLength": "4:06",
+        "title": "전국민 유심 수강신청 사태 (SKT 해킹)",
+        "profileImg": "https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj",
+        "channelName": "코딩애플",
+        "subscribeCount": "38.5명",
+        "views": "199만회",
+        "uploadDate": "3달 전",
+        "videoDetail": "번호이동 시켜줘 제발 번호이동 시켜줘 제발 번호이동 시켜줘 제발 ",
+        "likes": 1234,
+        "dislikes": 2,
+        "commentsList": [
+            {
+                "commentId": 1,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "코밑",
+                "commentText": "역시 형님이십니다",
+                "likes": 20
+            },
+            {
+                "commentId": 2,
+                "profileImg": "../imgs/profile_image.jpg",
+                "username": "현우진",
+                "commentText": "최태원이 더 레전드임ㅋㅋㅋ",
+                "likes": 20
             }
         ]
     }

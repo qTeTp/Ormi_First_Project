@@ -25,6 +25,6 @@ async function loadComponent(id, path, jsPath) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    loadComponent('navbar', './navbar.html', null);
-    loadComponent('videoDetail', './videoDetail.html', './videoDetail.js');
+    loadComponent('navbar', '../html/navbar.html', '../js/navBar.js');
+    loadComponent('videoDetail', '../html/videoDetail.html', '../js/videoDetail.js');
 });

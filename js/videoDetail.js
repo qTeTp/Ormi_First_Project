@@ -1,6 +1,6 @@
 // 우측 추천 영상 불러오기
 async function loadRecommendations(currentVideoId) {
-    const res = await fetch('./videos.json');
+    const res = await fetch('../json/videos.json');
     const videos = await res.json();
 
     const recommendations = videos.filter((v) => v.id !== currentVideoId);
@@ -32,7 +32,7 @@ async function loadVideoDetail() {
     const urlParams = new URLSearchParams(window.location.search);
     const videoId = urlParams.get('id');
 
-    const res = await fetch('./videos.json');
+    const res = await fetch('../json/videos.json');
     const videos = await res.json();
     const video = videos.find((v) => v.id == videoId);
     if (!video) return;
@@ -62,18 +62,18 @@ async function loadVideoDetail() {
 
             <div class="channel-actions">
                <button class="likeButton" id="likeBtn" style="color:white">
-                    <img src="./icons/Like.svg" alt="좋아요" style="width: 20px; height: 20px;">
+                    <img src="../icons/Like.svg" alt="좋아요" style="width: 20px; height: 20px;">
                     <span id="likeCount" style="font-size:15px; margin-right:4px">${video.likes}</span>
                 </button>
                 <button class="dislikeButton" id="dislikeBtn">
-                    <img src="./icons/DisLike.svg" alt="싫어요" style="width: 20px; height: 20px;">
+                    <img src="../icons/DisLike.svg" alt="싫어요" style="width: 20px; height: 20px;">
                 </button>
                 <button class="shareButton">
-                    <img src="./icons/Share.svg" alt="공유" style="width: 20px; height: 20px; ">
+                    <img src="../icons/Share.svg" alt="공유" style="width: 20px; height: 20px; ">
                     <span style="font-size:15px; margin-right:4px">공유</span>
                 </button>
                 <button class="moreButton">
-                    <img src="./icons/More.svg" alt="더보기" style="width: 20px; height: 20px; vertical-align: middle;">
+                    <img src="../icons/More.svg" alt="더보기" style="width: 20px; height: 20px; vertical-align: middle;">
                 </button>
         
             </div>
@@ -91,7 +91,7 @@ async function loadVideoDetail() {
         document.getElementById('commentsList').innerHTML = `
             <h5>댓글 ${comments.length}개</h5>
             <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
-                <img src="./imgs/my_profile.gif" alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
+                <img src="../imgs/my_profile.gif" alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
                 <input id="commentInput" type="text" placeholder="댓글 추가..." style="flex:1; padding:8px; background-color: transparent; color:#fff;">
                 <button id="addCommentBtn" class="btn btn-blue rounded-pill" style="height:36px;">등록</button>
             </div>
@@ -121,9 +121,9 @@ async function loadVideoDetail() {
             const text = input.value.trim();
             if (text) {
                 comments.unshift({
-                    username: 'User', // 임시 닉네임
+                    username: 'User',
                     commentText: text,
-                    profileImg: './imgs/my_profile.gif', // 내 프로필 이미지
+                    profileImg: '../imgs/my_profile.gif',
                 });
                 input.value = '';
                 renderComments();
@@ -145,12 +145,12 @@ async function loadVideoDetail() {
             currentLikes += 1;
             liked = true;
             disliked = false;
-            likeImg.src = './icons/Like_fill.svg'; // 채워진 좋아요
-            dislikeImg.src = './icons/DisLike.svg'; // 빈 싫어요
+            likeImg.src = '../icons/Like_fill.svg';
+            dislikeImg.src = '../icons/DisLike.svg';
         } else {
             currentLikes -= 1;
             liked = false;
-            likeImg.src = './icons/Like.svg'; // 빈 좋아요
+            likeImg.src = '../icons/Like.svg';
         }
         likeCount.textContent = currentLikes;
     };
@@ -161,10 +161,10 @@ async function loadVideoDetail() {
         if (liked) {
             currentLikes -= 1;
             liked = false;
-            likeImg.src = './icons/Like.svg'; // 빈 좋아요
+            likeImg.src = '../icons/Like.svg';
         }
         disliked = !disliked;
-        dislikeImg.src = disliked ? './icons/DisLike_fill.svg' : './icons/DisLike.svg';
+        dislikeImg.src = disliked ? '../icons/DisLike_fill.svg' : '../icons/DisLike.svg';
         likeCount.textContent = currentLikes;
     };
 

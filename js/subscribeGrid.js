@@ -1,10 +1,11 @@
 const container = document.querySelector('.video-grid');
 
 // 페치로 불러옴
-fetch('./subcribeVideos.json')
+fetch('../json/Videos.json')
     .then((res) => res.json())
     .then((videos) => {
-        videos.forEach((video) => {
+        const subscribeVideos = videos.filter((video) => video.channelName === '코딩애플');
+        subscribeVideos.forEach((video) => {
             const card = document.createElement('div');
             card.className = 'video-card';
 
@@ -23,4 +24,4 @@ fetch('./subcribeVideos.json')
             container.appendChild(card);
         });
     })
-    .catch((err) => console.error('videoGrid.js fetch error:', err));
+    .catch((err) => console.error('fetch error:', err));
