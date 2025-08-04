@@ -61,51 +61,11 @@
                 </div>
             </div>
         </nav>
-        <!-- 정적 사이드바 -->
-        <div class="inner_body">
-            <aside class="static_side_bar">
-                <div class="d-flex align-items-center sidebar_logo">
-                    <ul>
-                        <li>
-                            <a href="../html/mainPage.html" title="홈"
-                                ><img class="icons" src="../icons/Home_Fill.svg" alt="" /><br />
-                                홈</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#" title="Shorts"
-                                ><img class="icons" src="../icons/Short.svg" alt="" /> <br />Shorts</a
-                            >
-                        </li>
 
-                        <li>
-                            <a href="../html/subscribePage.html" title="구독"
-                                ><img class="icons" src="../icons/Subscriptions.svg" alt="" /><br />
-                                구독</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#" title="내 페이지"
-                                ><img class="icons" src="../icons/User.svg" alt="" /> <br />
-                                내 페이지</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
         <!-- 동적 사이드바 -->
         <div class="inner_body">
             <aside class="side_bar js-side_bar-l">
-                <div class="d-flex align-items-center sidebar_logo">
-                    <a class="transparent-button hamburger hamburger-button" href="#" onclick="sideBar2.close()">
-                        <img class="icons" src="../icons/Hamburger.svg" alt="staticHamburger" />
-                    </a>
-
-                    <a class="navbar-brand" href="../html/mainPage.html" title="YouTube 메인 페이지">
-                        <img class="logo" src="../imgs/youtube_logo.png" alt="logo" />
-                    </a>
-                </div>
+                <div class="d-flex align-items-center sidebar_logo"></div>
                 <ul>
                     <li>
                         <a href="#"><img class="icons" src="../icons/Home.svg" alt="홈" /> 홈</a>
@@ -140,11 +100,20 @@
                     </li>
                 </ul>
                 <hr />
-                구독
+                <p class="subscribe-text">구독</p>
                 <ul>
-                    <li><a href="#">KBS</a></li>
-                    <li><a href="#">MBC</a></li>
-                    <li><a href="#">SBS</a></li>
+                    <li>
+                        <a href="#" style="align-items: center; display: flex">
+                            <img
+                                src="https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj"
+                                alt="코딩애플"
+                                class="subscribe-profile"
+                            />
+                            <span style="font-size: 14px; font-family: Roboto, Arial, sans-serif; align-items: center"
+                                >코딩애플</span
+                            >
+                        </a>
+                    </li>
                 </ul>
             </aside>
         </div>

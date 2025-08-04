@@ -23,6 +23,7 @@ form.d-flex {
     flex-grow: 1;
     min-width: 0;
 }
+
 /* 검색 창 */
 .custom-searchfiled {
     display: block;
@@ -53,6 +54,26 @@ form.d-flex {
     margin-right: 10px;
 }
 
+.subscribe-text {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    color: #ffffff;
+}
+
+.subscribe-profile {
+    width: 24px;
+    height: 24px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-right: 24px;
+}
 /* 햄버거 버튼 */
 .hamburger-button {
     color: #ffffff;
@@ -98,7 +119,8 @@ form.d-flex {
     width: 250px;
     height: 100%;
     background: #111;
-    /* transition: all 0.3s ease; */
+    margin-top: 60px;
+    z-index: 9999;
 }
 
 .inner_body button {
