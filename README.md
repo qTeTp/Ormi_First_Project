@@ -1,5 +1,4 @@
-# Ormi_First_Project
-# [YouTube Clone](https://qtetp.github.io/Ormi_First_Project/html/mainPage.html)
+# Ormi_First_Project[YouTube Clone](https://qtetp.github.io/Ormi_First_Project/html/mainPage.html)
 
 ## 👩‍💻 프로젝트 개요
 
