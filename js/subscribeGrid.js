@@ -1,7 +1,7 @@
 const container = document.querySelector('.video-grid');
 
 // 페치로 불러옴
-fetch('../json/Videos.json')
+fetch('json/Videos.json')
     .then((res) => res.json())
     .then((videos) => {
         const subscribeVideos = videos.filter((video) => video.channelName === '코딩애플');

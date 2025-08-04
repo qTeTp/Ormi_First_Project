@@ -10,12 +10,12 @@ async function loadComponent(id, path) {
 
     if (id === 'videoGrid') {
         const script = document.createElement('script');
-        script.src = '../js/videoGrid.js';
+        script.src = 'js/videoGrid.js';
         document.body.appendChild(script);
     }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    loadComponent('navbar', '../html/navbar.html');
-    loadComponent('videoGrid', '../html/videoGrid.html');
+    loadComponent('navbar', 'html/navbar.html');
+    loadComponent('videoGrid', 'html/videoGrid.html');
 });
