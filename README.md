@@ -34,42 +34,42 @@
     
 - UI 구성도
     
-    ![image.png](attachment:f64ef265-04b1-41f7-956c-0f7878183a42:image.png)
+    <img width="1527" height="537" alt="Image" src="https://github.com/user-attachments/assets/15bf21bd-3611-4257-b264-256044e7d5d4" />
     
-    ![image.png](attachment:ac65edc7-8d27-4b16-bcea-12e37be27777:image.png)
+    <img width="1421" height="877" alt="Image" src="https://github.com/user-attachments/assets/0bd61b4b-f1cf-426f-866f-421e0eb7ea8d" />
     
 
 ## 🔍 주요 기능
 
 - 좌/우측 동적 사이드바
 
-[![image.png](attachment:534e2077-451b-4092-a832-59aa5a210845:image.png)](https://www.notion.so/image/attachment%3A534e2077-451b-4092-a832-59aa5a210845%3Aimage.png?table=block&id=245fa30f-4a77-8093-a4ce-cc70e5e57245&spaceId=df2bf3ed-fb5c-481b-a650-2cb98af83e43&width=2000&userId=72f79e43-fcd9-4cd9-ac59-9f93f1afe5fc&cache=v2)
+<img width="1415" height="670" alt="Image" src="https://github.com/user-attachments/assets/a5bdfe95-00ab-4516-8f7d-e89b40c054b2" />
 
 - 영상 썸네일 호버 시 이미지 확대
 
-![image.png](attachment:eb913dd4-43e4-443b-a652-b4fa3c25aea0:image.png)
+<img width="1920" height="1112" alt="Image" src="https://github.com/user-attachments/assets/abd895ab-9863-415d-b82c-6e4733fc46c6" />
 
 - 구독 페이지
 
-![image.png](attachment:ceca50e9-e344-4a7d-8cc2-edc1b80f1e9d:image.png)
+<img width="1920" height="945" alt="Image" src="https://github.com/user-attachments/assets/952ab562-2a3e-4c3c-ba35-471ef11a485a" />
 
 - iframe 임베딩
 
-![image.png](attachment:a7d83707-9c51-4e7d-aeb7-14475531cd81:image.png)
+<img width="1920" height="1518" alt="Image" src="https://github.com/user-attachments/assets/d45af286-a244-4a49-9bee-8f60028041d9" />
 
 - 영상 페이지 추천 영상 반응형
 
-![image.png](attachment:3383456e-3a54-4a2d-a0aa-317d20057c6b:image.png)
+<img width="1920" height="1518" alt="Image" src="https://github.com/user-attachments/assets/7414cc7d-204a-4dc1-82e7-26b782330675" />
 
-![image.png](attachment:9e2fdb1b-7a23-4955-be8e-c23a8a0bba71:32d79d16-48bd-4c41-aabf-33296c6a25ed.png)
+<img width="1041" height="1725" alt="Image" src="https://github.com/user-attachments/assets/cc75454c-479f-4fe8-b659-5f2afb8129db" />
 
 - 좋아요 구현
 
-![image.png](attachment:428eb5df-1a2e-4700-bb09-68feb02d5194:image.png)
+<img width="1920" height="1518" alt="Image" src="https://github.com/user-attachments/assets/66380348-5ada-4f6b-842c-a1cc25c20890" />
 
 - 댓글 기능 구현
 
-![image.png](attachment:2c5fdf0e-ca94-4049-a6fc-2cd61a8cfc57:image.png)
+<img width="1340" height="270" alt="Image" src="https://github.com/user-attachments/assets/5c0885d8-6e1c-4b6e-8db6-72ed23098a1c" />
 
 ## 🧱 폴더 구조
 
