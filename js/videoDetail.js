@@ -51,14 +51,14 @@ async function loadVideoDetail() {
       
         <div class="channel-info-bar">
             <div class="channel-owner">
-                <a href="#" class="channel-img">
+                <a role="button" class="channel-img">
                     <img src="${video.profileImg}" alt="${video.channelName}" />
                 </a>
                 <div class="channel-name">
                     <p style="font-size:16px">${video.channelName}</p>
                     <p style="font-size:12px; color:grey;">구독자 ${video.subscribeCount}</p>
                 </div>
-                <a class="btn btn-light rounded-pill subscribe-button" href="#" style="font-size:14px">구독</a>
+                <a class="btn btn-light rounded-pill subscribe-button" role="button"style="font-size:14px">구독</a>
             </div>
 
             <div class="channel-actions">

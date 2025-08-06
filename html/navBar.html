@@ -21,6 +21,7 @@
             <div class="d-flex w-100 justify-content-between align-items-center">
                 <div id="start" class="d-flex align-items-center">
                     <a
+                        role="button"
                         class="transparent-button hamburger hamburger-button"
                         onclick="sideBar2.open()"
                         style="height: 40px; width: 40px"
@@ -52,18 +53,18 @@
                 <div id="end">
                     <ul class="navbar-nav" style="flex-direction: row; margin-right: 10px">
                         <li class="nav-item">
-                            <a class="rounded-tn-dark btn btn-dark create-button">
+                            <a role="button" class="rounded-tn-dark btn btn-dark create-button">
                                 <img class="icons" src="icons/Close.svg" alt="" />
                                 만들기
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="transparent-button" title="알림">
+                            <a role="button" class="transparent-button" title="알림">
                                 <img class="icons" src="icons/Notification_Off.svg" alt="알림" />
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="profile-button" onclick="sideBar.open()">
+                            <a role="button" class="profile-button" onclick="sideBar.open()">
                                 <img src="imgs/my_profile.gif" alt="프로필사진"
                             /></a>
                         </li>
@@ -81,7 +82,7 @@
                         <a href="html/mainPage.html"><img class="side-icons" src="icons/Home.svg" alt="홈" /> 홈</a>
                     </li>
                     <li>
-                        <a><img class="side-icons" src="icons/Short.svg" alt="쇼츠" /> Shorts</a>
+                        <a role="button"><img class="side-icons" src="icons/Short.svg" alt="쇼츠" /> Shorts</a>
                     </li>
                     <li>
                         <a href="html/subscribePage.html"
@@ -91,29 +92,29 @@
                 </ul>
                 <hr />
                 <ul>
-                    <li><a>내 페이지 ></a></li>
+                    <li><a role="button">내 페이지 ></a></li>
                     <li>
-                        <a><img class="side-icons" src="icons/Play Back.svg" alt="" />시청 기록</a>
+                        <a role="button"><img class="side-icons" src="icons/Play Back.svg" alt="" />시청 기록</a>
                     </li>
                     <li>
-                        <a><img class="side-icons" src="icons/Play List.svg" alt="" />재생목록</a>
+                        <a role="button"><img class="side-icons" src="icons/Play List.svg" alt="" />재생목록</a>
                     </li>
                     <li>
-                        <a><img class="side-icons" src="icons/My.svg" alt="" />내 동영상</a>
+                        <a role="button"><img class="side-icons" src="icons/My.svg" alt="" />내 동영상</a>
                     </li>
 
                     <li>
-                        <a><img class="side-icons" src="icons/History.svg" alt="" />나중에 볼 동영상</a>
+                        <a role="button"><img class="side-icons" src="icons/History.svg" alt="" />나중에 볼 동영상</a>
                     </li>
                     <li>
-                        <a><img class="side-icons" src="icons/Like.svg" alt="" />좋아요 표시한 동영상</a>
+                        <a role="button"><img class="side-icons" src="icons/Like.svg" alt="" />좋아요 표시한 동영상</a>
                     </li>
                 </ul>
                 <hr />
                 <p class="subscribe-text">구독</p>
                 <ul>
                     <li>
-                        <a style="align-items: center; display: flex">
+                        <a role="button" style="align-items: center; display: flex">
                             <img
                                 src="https://yt3.googleusercontent.com/ytc/AIdro_nwJ1atCtmd4bkIhKvnjnY0cVqehB44xMmyVJmSFqXiJ8c=s160-c-k-c0x00ffffff-no-rj"
                                 alt="코딩애플"
@@ -145,7 +146,7 @@
                                 <p>User</p>
                                 <p>@user1234</p>
                                 <a
-                                    onclick="sideBar.close()"
+                                    role="button"
                                     style="display: block; color: #3ea6ff; font-size: 0.85rem; margin-top: 0.5rem"
                                     >내 채널 보기</a
                                 >
