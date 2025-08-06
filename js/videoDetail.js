@@ -90,31 +90,31 @@ async function loadVideoDetail() {
 
     function renderComments() {
         document.getElementById('commentsList').innerHTML = `
-            <h5>댓글 ${comments.length}개</h5>
-            <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
-                <img src="imgs/my_profile.gif" alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
-                <input id="commentInput" type="text" placeholder="댓글 추가..." style="flex:1; padding:8px; background-color: transparent; color:#fff;">
-                <button id="addCommentBtn" class="btn btn-blue rounded-pill" style="height:36px;">등록</button>
-            </div>
-            <div id="commentsArea">
-                ${
-                    comments.length
-                        ? comments
-                              .map(
-                                  (c) => `
-                            <div style="display:flex; align-items:flex-start; gap:10px; margin-bottom:14px;">
-                                <img src="${c.profileImg}" alt="${c.username}" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
-                                <div>
-                                    <strong style="color:#fff;">${c.username}</strong><br>
-                                    <span style="color:#ccc;">${c.commentText}</span>
-                                </div>
+        <h5>댓글 ${comments.length}개</h5>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+            <img src="imgs/my_profile.gif" alt="내 프로필" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
+            <input id="commentInput" type="text" placeholder="댓글 추가..." style="flex:1; padding:8px; background-color: transparent; color:#fff;">
+            <button id="addCommentBtn" class="btn btn-blue rounded-pill" style="height:36px;">등록</button>
+        </div>
+        <div id="commentsArea">
+            ${
+                comments.length
+                    ? comments
+                          .map(
+                              (c) => `
+                        <div style="display:flex; align-items:flex-start; gap:10px; margin-bottom:14px;">
+                            <img src="${c.profileImg}" alt="${c.username}" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
+                            <div>
+                                <strong style="color:#fff;">${c.username}</strong><br>
+                                <span style="color:#ccc;">${c.commentText}</span>
                             </div>
-                        `
-                              )
-                              .join('')
-                        : '<p style="color:#aaa;">댓글이 없습니다.</p>'
-                }
-            </div>
+                        </div>
+                    `
+                          )
+                          .join('')
+                    : '<p style="color:#aaa;">댓글이 없습니다.</p>'
+            }
+        </div>
         `;
         // 댓글 등록 이벤트
         document.getElementById('addCommentBtn').onclick = () => {
